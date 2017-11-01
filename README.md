@@ -102,7 +102,7 @@ You can setup the `I18nMiddleware` in your `src/Application::middleware()` as
 shown:
 
 ```php
-$middlware->add(new \ADmad\I18n\Middleware\I18nMiddleware([
+$middleware->add(new \ADmad\I18n\Middleware\I18nMiddleware([
     // If `true` will attempt to get matching languges in "languages" list based on browser locale and redirect to that when going to site root.
     'detectLanguage' => true,
     // Default language for app. If language detection is disabled or no matching language is found redirect to this language
